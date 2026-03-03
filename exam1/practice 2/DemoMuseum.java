@@ -12,14 +12,15 @@ public class DemoMuseum {
    public static void main (String[] args) {
       
       // variables
+      // variables
       ArrayList<MuseumMembership> museumMemberships = new ArrayList<MuseumMembership>();
-      String customerName;       //
-      String membershipType;     // 
-      int numMuseumVisits;       //
+      String customerName;       // customer name
+      String membershipType;     // membership menu choice (A, B, or C)
+      int numMuseumVisits;       // # of museum visits
       String again;              // whether user wants to enter info for another museum
-      int membershipCount = 0;   // 
-      int eventCount = 0;        //
-      double totalRevenue = 0.0; //
+      int membershipCount = 0;   // counts total # of memberships sold
+      int eventCount = 0;        // counts total # of events attended
+      double totalRevenue = 0.0; // aggregates total ticket revenue from all customers
       
       // new scanner object
       Scanner keyboard = new Scanner (System.in);
