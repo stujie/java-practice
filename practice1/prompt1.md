@@ -57,3 +57,47 @@ Use the table below to determine the efficiency rating of the factory.
 | Excellent         | Above 95.00                            |
 | Good              | At least 90.00 but not more than 95.00 |
 | Unacceptable      | Below 90.00                            |
+
+The program should display the input and output as shown in the Sample Input and Output
+
+## Sample Input and Output (formatting and spacing should be exactly as shown below)
+
+Enter the name of the assembly line: Line1
+
+Enter the total number of widgets manufactured: 10000
+
+Enter the number of rejected widgets manufactured: 368
+
+Do you wish to enter information for another assembly line (Y/N)? Y
+
+Enter the name of the assembly line: Line2
+
+Enter the total number of widgets manufactured: 54123
+
+Enter the number of rejected widgets manufactured: 5899
+
+Do you wish to enter information for another assembly line (Y/N)? Y
+
+Enter the name of the assembly line: Line3
+
+Enter the total number of widgets manufactured: 950
+
+Enter the number of rejected widgets manufactured: 75
+
+Do you wish to enter information for another assembly line (Y/N)? N
+
+Quality Report:
+
+Assembly Line: Line1
+
+Quality (as a percentage): 96.32
+
+Assembly Line: Line2
+
+Quality (as a percentage): 89.10
+
+Assembly Line: Line3
+
+Quality (as a percentage): 92.11
+
+The efficiency of the factory is: Good
