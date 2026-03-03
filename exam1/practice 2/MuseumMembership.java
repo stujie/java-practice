@@ -9,9 +9,9 @@
 public class MuseumMembership {
    
    // instance fields
-   String customerName;    // name of customer purchasing the membership
-   String membershipPlan;  // type of membership plan
-   int museumVisits;       // # of museum visits purchased with the membership
+   private String customerName;    // name of customer purchasing the membership
+   private String membershipPlan;  // type of membership plan
+   private int museumVisits;       // # of museum visits purchased with the membership
    
    // setter methods
    public void setCustomerName(String name) {
