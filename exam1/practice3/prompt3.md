@@ -82,4 +82,12 @@ The program should complete the following steps:
 
 5. At the very end of the output, the program should display the name of the family that purchased the most expensive ticket plan.
 
-# Sample Input and Output (formatting and spacing should be exactly as shown below)
+## Sample Input and Output (formatting and spacing should be exactly as shown below)
+
+### Input
+
+![Sample Input](image-1.png)
+
+### Output
+
+![Sample Output](image-2.png)
